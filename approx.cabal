@@ -1,0 +1,24 @@
+name:                approx
+version:             0.1.0.0
+synopsis:            Convenient wrappers and additional instances for `Linear.Epsilon` module
+description:         Convenient wrappers and additional instances for `Linear.Epsilon` module
+homepage:            https://github.com/zaquest/approx#readme
+license:             BSD3
+license-file:        LICENSE
+author:              zaquest
+maintainer:          zaquest@gmail.com
+copyright:           2016 zaquest
+category:            Math
+build-type:          Simple
+cabal-version:       >=1.10
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     Approx
+  build-depends:       base >= 4.7 && < 5
+                     , linear
+  default-language:    Haskell2010
+
+source-repository head
+  type:     git
+  location: https://github.com/zaquest/approx
